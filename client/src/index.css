@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --wkit-accent-hs: 166, 91%;
+    --wkit-on-accent-rgb: 255, 255, 255;
+    --wkit-bg-rgb: 40, 40, 40;
+    --wkit-on-bg-rgb: 241, 241, 241;
+  }
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: radial-gradient(circle, #002850, #002443, #001f37, #001a2a, #00141e);
+}
